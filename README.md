@@ -27,7 +27,7 @@ node server.js
 
 
 
-Le message Serveur API Okayo démarré... sur le port 3000 doit apparaître.
+Le message Serveur API Okayo démarre sur le port 3000.
 # 3. Comment tester (3 étapes simples)
 
 Vous pouvez tester l'application directement via WebStorm (avec un fichier .http) ou avec les commandes suivantes :
