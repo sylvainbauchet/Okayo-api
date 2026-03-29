@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fde82ec-62ae-42fc-887b-46869b29bee5" name="Changes" comment="ajout ligne api">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.http" beforeDir="false" afterPath="$PROJECT_DIR$/tests.http" afterDir="false" />
+    <list default="true" id="2fde82ec-62ae-42fc-887b-46869b29bee5" name="Changes" comment="modif bdd">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +148,7 @@
       <workItem from="1774789647044" duration="6479000" />
       <workItem from="1774809798751" duration="652000" />
       <workItem from="1774810469737" duration="10000" />
-      <workItem from="1774814204114" duration="3931000" />
+      <workItem from="1774814204114" duration="5069000" />
     </task>
     <task id="LOCAL-00001" summary="Initial push">
       <option name="closed" value="true" />
@@ -192,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774817307983</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modif bdd">
+      <option name="closed" value="true" />
+      <created>1774820423826</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774820423826</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +220,7 @@
     <MESSAGE value="npm rebuild" />
     <MESSAGE value="changement de la bdd" />
     <MESSAGE value="ajout ligne api" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout ligne api" />
+    <MESSAGE value="modif bdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif bdd" />
   </component>
 </project>
