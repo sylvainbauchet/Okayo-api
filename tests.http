@@ -1,7 +1,9 @@
-### 1. Voir le catalogue de produits
+### 1. Voir le catalogue de produits (Vérification de la table PRODUIT_CATALOGUE)
 GET http://localhost:3000/api/products
+Accept: application/json
 
-### 2. Créer une facture
+### 2. Créer la facture selon les données exactes du PDF Okayo
+# On précise l'id_produit et l'id_categorie_tva pour chaque ligne
 POST http://localhost:3000/api/invoices
 Content-Type: application/json
 
@@ -10,13 +12,29 @@ Content-Type: application/json
   "reference_facture": "2022-0025",
   "date_facturation": "2018-07-26",
   "lignes": [
-    {"id_produit": 1, "quantite": 1},
-    {"id_produit": 2, "quantite": 2},
-    {"id_produit": 3, "quantite": 1},
-    {"id_produit": 4, "quantite": 2}
+    {
+      "id_produit": 1,
+      "id_categorie_tva": 1,
+      "quantite": 1
+    },
+    {
+      "id_produit": 2,
+      "id_categorie_tva": 3,
+      "quantite": 2
+    },
+    {
+      "id_produit": 3,
+      "id_categorie_tva": 1,
+      "quantite": 1
+    },
+    {
+      "id_produit": 4,
+      "id_categorie_tva": 2,
+      "quantite": 2
+    }
   ]
 }
 
-### 3. Consulter la facture générée (remplace '1' par l'ID retourné à l'étape précédente si besoin)
-GET http://localhost:3000/api/invoices/3
-
+### 3. Consulter la facture générée et vérifier les calculs dynamiques
+GET http://localhost:3000/api/invoices/1
+Accept: application/json

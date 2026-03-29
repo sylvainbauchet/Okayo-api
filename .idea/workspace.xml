@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fde82ec-62ae-42fc-887b-46869b29bee5" name="Changes" comment="">
+    <list default="true" id="2fde82ec-62ae-42fc-887b-46869b29bee5" name="Changes" comment="npm rebuild">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/better-sqlite3/build/Release/better_sqlite3.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/better-sqlite3/build/Release/better_sqlite3.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +45,6 @@
   <component name="HttpClientOnboardingState">{
   &quot;isOnboardingCommentShown&quot;: true
 }</component>
-  <component name="HttpClientSelectedEnvironments">
-    <file url="file://$USER_HOME$/AppData/Local/Temp/whats-new-dir/whats-new.http" environment="test" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
   &quot;fromUser&quot;: false
@@ -57,37 +54,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.All in tests.executor": "Run",
-    "HTTP Request.tests | #1.executor": "Run",
-    "HTTP Request.tests | #2.executor": "Run",
-    "HTTP Request.tests | 1. Voir le catalogue de produits.executor": "Run",
-    "HTTP Request.tests | 2. Créer une facture.executor": "Run",
-    "HTTP Request.tests | 3. Consulter la facture générée (remplace '1' par l'ID retourné à l'étape précédente si besoin).executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.server.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "git.auto.fetch.suggestion.counter": "1",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "20.15.0",
-    "javascript.nodejs.core.library.typings.version": "20.15.0",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/Users/sylvain/WebstormProjects/Okayo-api",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/sylvain/AppData/Roaming/JetBrains/WebStorm2026.1/node/versions/20.15.0/node",
-    "nodejs_package_manager_path": "C:\\Program Files\\nodejs\\node.exe",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.All in tests.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.tests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.tests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.tests | 1. Voir le catalogue de produits.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.tests | 2. Créer une facture.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.tests | 3. Consulter la facture générée (remplace '1' par l'ID retourné à l'étape précédente si besoin).executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.server.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.15.0&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sylvain/WebstormProjects/Okayo-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/sylvain/AppData/Roaming/JetBrains/WebStorm2026.1/node/versions/20.15.0/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;C:\\Program Files\\nodejs\\node.exe&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationStatuses">
       <map>
@@ -104,17 +101,17 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.server.js">
-    <configuration name="tests | 1. Voir le catalogue de produits" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" executionIdentifier="1. Voir le catalogue de produits" runType="Run single request">
+  <component name="RunManager" selected="HTTP Request.All in tests">
+    <configuration name="All in tests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/tests.http">
       <method v="2" />
     </configuration>
-    <configuration name="tests | 2. Créer une facture" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" executionIdentifier="2. Créer une facture" index="2" runType="Run single request">
+    <configuration name="tests | 1. Voir le catalogue de produits (Vérification de la table PRODUIT_CATALOGUE)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" executionIdentifier="1. Voir le catalogue de produits (Vérification de la table PRODUIT_CATALOGUE)" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="tests | 3. Consulter la facture générée (remplace '1' par l'ID retourné à l'étape précédente si besoin)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" executionIdentifier="3. Consulter la facture générée (remplace '1' par l'ID retourné à l'étape précédente si besoin)" index="3" runType="Run single request">
+    <configuration name="tests | 2. Créer la facture selon les données exactes du PDF Okayo" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" executionIdentifier="2. Créer la facture selon les données exactes du PDF Okayo" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="tests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" executionIdentifier="#1" runType="Run single request">
+    <configuration name="tests | 3. Consulter la facture générée et vérifier les calculs dynamiques" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" executionIdentifier="3. Consulter la facture générée et vérifier les calculs dynamiques" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
@@ -122,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.All in tests" />
+        <item itemvalue="HTTP Request.tests | 3. Consulter la facture générée et vérifier les calculs dynamiques" />
+        <item itemvalue="HTTP Request.tests | 2. Créer la facture selon les données exactes du PDF Okayo" />
+        <item itemvalue="HTTP Request.tests | 1. Voir le catalogue de produits (Vérification de la table PRODUIT_CATALOGUE)" />
         <item itemvalue="Node.js.server.js" />
-        <item itemvalue="HTTP Request.tests | 3. Consulter la facture générée (remplace '1' par l'ID retourné à l'étape précédente si besoin)" />
-        <item itemvalue="HTTP Request.tests | 2. Créer une facture" />
-        <item itemvalue="HTTP Request.tests | 1. Voir le catalogue de produits" />
-        <item itemvalue="HTTP Request.tests | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +143,9 @@
       <updated>1774789281200</updated>
       <workItem from="1774789282235" duration="330000" />
       <workItem from="1774789647044" duration="6479000" />
-      <workItem from="1774809798751" duration="504000" />
+      <workItem from="1774809798751" duration="652000" />
+      <workItem from="1774810469737" duration="10000" />
+      <workItem from="1774814204114" duration="2510000" />
     </task>
     <task id="LOCAL-00001" summary="Initial push">
       <option name="closed" value="true" />
@@ -164,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774809206005</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="npm rebuild">
+      <option name="closed" value="true" />
+      <created>1774810318868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774810318868</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +190,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial push" />
+    <MESSAGE value="npm rebuild" />
+    <option name="LAST_COMMIT_MESSAGE" value="npm rebuild" />
   </component>
 </project>
