@@ -1,0 +1,49 @@
+{
+  "entete": {
+    "id_facture": 1,
+    "id_client": 1,
+    "reference_facture": "2022-0025",
+    "date_facturation": "2018-07-26",
+    "nom_societe": "Mon client SAS",
+    "code_client": "CU2203-0005"
+  },
+  "lignes": [
+    {
+      "designation": "Mon produit C",
+      "quantite": 1,
+      "prix_unitaire_ht": 70000,
+      "taux_tva": 20,
+      "total_ligne_ht": 70000
+    },
+    {
+      "designation": "Mon produit A",
+      "quantite": 2,
+      "prix_unitaire_ht": 1500,
+      "taux_tva": 5.5,
+      "total_ligne_ht": 3000
+    },
+    {
+      "designation": "Mon produit D",
+      "quantite": 1,
+      "prix_unitaire_ht": 3000,
+      "taux_tva": 20,
+      "total_ligne_ht": 3000
+    },
+    {
+      "designation": "Mon produit B",
+      "quantite": 2,
+      "prix_unitaire_ht": 4000,
+      "taux_tva": 7,
+      "total_ligne_ht": 8000
+    }
+  ],
+  "recapitulatif": {
+    "total_ht": 84000,
+    "details_tva": {
+      "Total TVA 20%": 14600,
+      "Total TVA 5.5%": 165,
+      "Total TVA 7%": 560
+    },
+    "total_ttc": 99325
+  }
+}

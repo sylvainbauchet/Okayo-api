@@ -1,0 +1,285 @@
+GET http://localhost:3000/api/invoices/3
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T174901-1.200.json
+
+###
+
+POST http://localhost:3000/api/invoices
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_client": 1,
+  "reference_facture": "2022-0025",
+  "date_facturation": "2018-07-26",
+  "lignes": [
+    {"id_produit": 1, "quantite": 1},
+    {"id_produit": 2, "quantite": 2},
+    {"id_produit": 3, "quantite": 1},
+    {"id_produit": 4, "quantite": 2}
+  ]
+}
+
+<> 2026-03-29T174901.201.json
+
+###
+
+GET http://localhost:3000/api/products
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T174901.200.json
+
+###
+
+GET http://localhost:3000/api/invoices/3
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T151634-1.200.json
+
+###
+
+POST http://localhost:3000/api/invoices
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_client": 1,
+  "reference_facture": "2022-0025",
+  "date_facturation": "2018-07-26",
+  "lignes": [
+    {"id_produit": 1, "quantite": 1},
+    {"id_produit": 2, "quantite": 2},
+    {"id_produit": 3, "quantite": 1},
+    {"id_produit": 4, "quantite": 2}
+  ]
+}
+
+<> 2026-03-29T151634.201.json
+
+###
+
+GET http://localhost:3000/api/products
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T151634.200.json
+
+###
+
+GET http://localhost:3000/api/invoices/3
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T151624-1.200.json
+
+###
+
+POST http://localhost:3000/api/invoices
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_client": 1,
+  "reference_facture": "2022-0025",
+  "date_facturation": "2018-07-26",
+  "lignes": [
+    {"id_produit": 1, "quantite": 1},
+    {"id_produit": 2, "quantite": 2},
+    {"id_produit": 3, "quantite": 1},
+    {"id_produit": 4, "quantite": 2}
+  ]
+}
+
+<> 2026-03-29T151624.201.json
+
+###
+
+GET http://localhost:3000/api/products
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T151624.200.json
+
+###
+
+GET http://localhost:3000/api/invoices/3
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T151610.200.json
+
+###
+
+GET http://localhost:3000/api/invoices/1
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T151603.404.json
+
+###
+
+POST http://localhost:3000/api/invoices
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_client": 1,
+  "reference_facture": "2022-0025",
+  "date_facturation": "2018-07-26",
+  "lignes": [
+    {"id_produit": 1, "quantite": 1},
+    {"id_produit": 2, "quantite": 2},
+    {"id_produit": 3, "quantite": 1},
+    {"id_produit": 4, "quantite": 2}
+  ]
+}
+
+<> 2026-03-29T151558.201.json
+
+###
+
+GET http://localhost:3000/api/products
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T151557.200.json
+
+###
+
+GET http://localhost:3000/api/invoices/2
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T151522.404.json
+
+###
+
+POST http://localhost:3000/api/invoices
+Content-Type: application/json
+Content-Length: 224
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_client": 2,
+  "reference_facture": "2022-0026",
+  "date_facturation": "2018-07-27",
+  "lignes": [
+    {"id_produit": 1, "quantite": 2},
+    {"id_produit": 2, "quantite": 1},
+    {"id_produit": 3, "quantite": 3}
+  ]
+}
+
+<> 2026-03-29T151452.201.json
+
+###
+
+GET http://localhost:3000/api/invoices/2
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-03-29T151422.404.json
+
+###
+
+POST http://localhost:3000/api/invoices
+Content-Type: application/json
+Content-Length: 224
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_client": 2,
+  "reference_facture": "2022-0026",
+  "date_facturation": "2018-07-27",
+  "lignes": [
+    {"id_produit": 1, "quantite": 2},
+    {"id_produit": 2, "quantite": 1},
+    {"id_produit": 3, "quantite": 3}
+  ]
+}
+
+<> 2026-03-29T151318.201.json
+
+###
+
+GET http://localhost:3000/api/products
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T151022.200.json
+
+###
+
+GET http://localhost:3000/api/invoices/1
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T150447.200.json
+
+###
+
+POST http://localhost:3000/api/invoices
+Content-Type: application/json
+Content-Length: 262
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_client": 1,
+  "reference_facture": "2022-0025",
+  "date_facturation": "2018-07-26",
+  "lignes": [
+    {"id_produit": 1, "quantite": 1},
+    {"id_produit": 2, "quantite": 2},
+    {"id_produit": 3, "quantite": 1},
+    {"id_produit": 4, "quantite": 2}
+  ]
+}
+
+<> 2026-03-29T150436.201.json
+
+###
+
+GET http://localhost:3000/api/products
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-29T150429.200.json
+
+###
+

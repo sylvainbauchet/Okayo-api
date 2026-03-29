@@ -1,0 +1,26 @@
+[
+  {
+    "id_produit": 1,
+    "designation_courante": "Mon produit C",
+    "prix_unitaire_ht_courant": 70000,
+    "nom_categorie": "Taux Normal"
+  },
+  {
+    "id_produit": 2,
+    "designation_courante": "Mon produit A",
+    "prix_unitaire_ht_courant": 1500,
+    "nom_categorie": "Taux Réduit"
+  },
+  {
+    "id_produit": 3,
+    "designation_courante": "Mon produit D",
+    "prix_unitaire_ht_courant": 3000,
+    "nom_categorie": "Taux Normal"
+  },
+  {
+    "id_produit": 4,
+    "designation_courante": "Mon produit B",
+    "prix_unitaire_ht_courant": 4000,
+    "nom_categorie": "Taux Intermédiaire"
+  }
+]
