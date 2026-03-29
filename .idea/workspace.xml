@@ -95,10 +95,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.All in tests">
-    <configuration name="All in tests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/tests.http">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="tests | 1. Voir le catalogue de produits" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" executionIdentifier="1. Voir le catalogue de produits" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -111,13 +108,16 @@
     <configuration name="tests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.server.js" />
         <item itemvalue="HTTP Request.tests | 3. Consulter la facture générée (remplace '1' par l'ID retourné à l'étape précédente si besoin)" />
         <item itemvalue="HTTP Request.tests | 2. Créer une facture" />
         <item itemvalue="HTTP Request.tests | 1. Voir le catalogue de produits" />
         <item itemvalue="HTTP Request.tests | #1" />
-        <item itemvalue="HTTP Request.All in tests" />
       </list>
     </recent_temporary>
   </component>
