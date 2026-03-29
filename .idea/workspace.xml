@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.All in tests" />
         <item itemvalue="HTTP Request.tests | 3. Consulter la facture générée (remplace '1' par l'ID retourné à l'étape précédente si besoin)" />
         <item itemvalue="HTTP Request.tests | 2. Créer une facture" />
         <item itemvalue="HTTP Request.tests | 1. Voir le catalogue de produits" />
         <item itemvalue="HTTP Request.tests | #1" />
+        <item itemvalue="HTTP Request.All in tests" />
       </list>
     </recent_temporary>
   </component>
