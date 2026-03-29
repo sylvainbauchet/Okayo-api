@@ -175,4 +175,5 @@ app.get('/api/invoices/:id', (req, res) => {
 const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Serveur API Okayo démarré sur http://localhost:${PORT}`);
+    console.log(`Testez le catalogue : GET http://localhost:${PORT}/api/products`);
 });
