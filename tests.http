@@ -1,40 +1,29 @@
-### 1. Voir le catalogue de produits (Vérification de la table PRODUIT_CATALOGUE)
-GET http://localhost:3000/api/products
-Accept: application/json
-
-### 2. Créer la facture selon les données exactes du PDF Okayo
-# On précise l'id_produit et l'id_categorie_tva pour chaque ligne
+### 1. Créer le Brouillon (On ne passe que les ID et quantités)
 POST http://localhost:3000/api/invoices
 Content-Type: application/json
 
 {
   "id_client": 1,
-  "reference_facture": "2022-0025",
-  "date_facturation": "2018-07-26",
   "lignes": [
-    {
-      "id_produit": 1,
-      "id_categorie_tva": 1,
-      "quantite": 1
-    },
-    {
-      "id_produit": 2,
-      "id_categorie_tva": 3,
-      "quantite": 2
-    },
-    {
-      "id_produit": 3,
-      "id_categorie_tva": 1,
-      "quantite": 1
-    },
-    {
-      "id_produit": 4,
-      "id_categorie_tva": 2,
-      "quantite": 2
-    }
+    {"id_produit": 1, "quantite": 1},
+    {"id_produit": 2, "quantite": 2},
+    {"id_produit": 3, "quantite": 1},
+    {"id_produit": 4, "quantite": 2}
   ]
 }
 
-### 3. Consulter la facture générée et vérifier les calculs dynamiques
+### 2. Consulter le Brouillon (Prévisualisation)
+GET http://localhost:3000/api/invoices/1
+Accept: application/json
+
+### 3. VALIDER la facture (Figeage des données à la toute fin)
+POST http://localhost:3000/api/invoices/1/validate
+Content-Type: application/json
+
+{
+  "date_facturation": "2018-07-26"
+}
+
+### 4. Consulter la facture Validée
 GET http://localhost:3000/api/invoices/1
 Accept: application/json

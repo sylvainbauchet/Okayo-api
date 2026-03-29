@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fde82ec-62ae-42fc-887b-46869b29bee5" name="Changes" comment="changement de la bdd">
+    <list default="true" id="2fde82ec-62ae-42fc-887b-46869b29bee5" name="Changes" comment="ajout ligne api">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.http" beforeDir="false" afterPath="$PROJECT_DIR$/tests.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +62,7 @@
     "HTTP Request.tests | #2.executor": "Run",
     "HTTP Request.tests | 1. Voir le catalogue de produits (Vérification de la table PRODUIT_CATALOGUE).executor": "Run",
     "HTTP Request.tests | 1. Voir le catalogue de produits.executor": "Run",
+    "HTTP Request.tests | 2. Consulter le Brouillon (Prévisualisation).executor": "Run",
     "HTTP Request.tests | 2. Créer la facture selon les données exactes du PDF Okayo.executor": "Run",
     "HTTP Request.tests | 2. Créer une facture.executor": "Run",
     "HTTP Request.tests | 3. Consulter la facture générée (remplace '1' par l'ID retourné à l'étape précédente si besoin).executor": "Run",
@@ -94,7 +97,7 @@
           <value>
             <map>
               <entry key="All in tests" value="STOPPED" />
-              <entry key="tests | 1. Voir le catalogue de produits (Vérification de la table PRODUIT_CATALOGUE)" value="STOPPED" />
+              <entry key="tests | 2. Consulter le Brouillon (Prévisualisation)" value="STOPPED" />
               <entry key="tests | 2. Créer la facture selon les données exactes du PDF Okayo" value="STOPPED" />
               <entry key="tests | 3. Consulter la facture générée et vérifier les calculs dynamiques" value="STOPPED" />
             </map>
@@ -103,11 +106,11 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.server.js">
+  <component name="RunManager" selected="HTTP Request.All in tests">
     <configuration name="All in tests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/tests.http">
       <method v="2" />
     </configuration>
-    <configuration name="tests | 1. Voir le catalogue de produits (Vérification de la table PRODUIT_CATALOGUE)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" executionIdentifier="1. Voir le catalogue de produits (Vérification de la table PRODUIT_CATALOGUE)" runType="Run single request">
+    <configuration name="tests | 2. Consulter le Brouillon (Prévisualisation)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" executionIdentifier="2. Consulter le Brouillon (Prévisualisation)" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="tests | 2. Créer la facture selon les données exactes du PDF Okayo" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/tests.http" executionIdentifier="2. Créer la facture selon les données exactes du PDF Okayo" index="2" runType="Run single request">
@@ -121,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.server.js" />
         <item itemvalue="HTTP Request.All in tests" />
+        <item itemvalue="HTTP Request.tests | 2. Consulter le Brouillon (Prévisualisation)" />
+        <item itemvalue="Node.js.server.js" />
         <item itemvalue="HTTP Request.tests | 3. Consulter la facture générée et vérifier les calculs dynamiques" />
         <item itemvalue="HTTP Request.tests | 2. Créer la facture selon les données exactes du PDF Okayo" />
-        <item itemvalue="HTTP Request.tests | 1. Voir le catalogue de produits (Vérification de la table PRODUIT_CATALOGUE)" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +150,7 @@
       <workItem from="1774789647044" duration="6479000" />
       <workItem from="1774809798751" duration="652000" />
       <workItem from="1774810469737" duration="10000" />
-      <workItem from="1774814204114" duration="2899000" />
+      <workItem from="1774814204114" duration="3931000" />
     </task>
     <task id="LOCAL-00001" summary="Initial push">
       <option name="closed" value="true" />
@@ -181,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774817093470</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ajout ligne api">
+      <option name="closed" value="true" />
+      <created>1774817307983</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774817307983</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +213,7 @@
     <MESSAGE value="Initial push" />
     <MESSAGE value="npm rebuild" />
     <MESSAGE value="changement de la bdd" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement de la bdd" />
+    <MESSAGE value="ajout ligne api" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout ligne api" />
   </component>
 </project>

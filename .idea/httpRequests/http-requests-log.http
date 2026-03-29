@@ -3,55 +3,52 @@ Accept: application/json
 User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 
-<> 2026-03-29T224343-1.200.json
+<> 2026-03-29T234008-1.200.json
+
+###
+
+POST http://localhost:3000/api/invoices/1/validate
+Content-Type: application/json
+Content-Length: 38
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date_facturation": "2018-07-26"
+}
+
+<> 2026-03-29T234008.400.json
+
+###
+
+GET http://localhost:3000/api/invoices/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-03-29T234008.200.json
 
 ###
 
 POST http://localhost:3000/api/invoices
 Content-Type: application/json
-Content-Length: 450
+Content-Length: 190
 User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 {
   "id_client": 1,
-  "reference_facture": "2022-0025",
-  "date_facturation": "2018-07-26",
   "lignes": [
-    {
-      "id_produit": 1,
-      "id_categorie_tva": 1,
-      "quantite": 1
-    },
-    {
-      "id_produit": 2,
-      "id_categorie_tva": 3,
-      "quantite": 2
-    },
-    {
-      "id_produit": 3,
-      "id_categorie_tva": 1,
-      "quantite": 1
-    },
-    {
-      "id_produit": 4,
-      "id_categorie_tva": 2,
-      "quantite": 2
-    }
+    {"id_produit": 1, "quantite": 1},
+    {"id_produit": 2, "quantite": 2},
+    {"id_produit": 3, "quantite": 1},
+    {"id_produit": 4, "quantite": 2}
   ]
 }
 
-<> 2026-03-29T224343.201.json
-
-###
-
-GET http://localhost:3000/api/products
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/WebStorm 2026.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-03-29T224343.200.json
+<> 2026-03-29T234008.201.json
 
 ###
 
