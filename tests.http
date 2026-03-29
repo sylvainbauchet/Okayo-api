@@ -1,0 +1,22 @@
+### 1. Voir le catalogue de produits
+GET http://localhost:3000/api/products
+
+### 2. Créer une facture
+POST http://localhost:3000/api/invoices
+Content-Type: application/json
+
+{
+  "id_client": 1,
+  "reference_facture": "2022-0025",
+  "date_facturation": "2018-07-26",
+  "lignes": [
+    {"id_produit": 1, "quantite": 1},
+    {"id_produit": 2, "quantite": 2},
+    {"id_produit": 3, "quantite": 1},
+    {"id_produit": 4, "quantite": 2}
+  ]
+}
+
+### 3. Consulter la facture générée (remplace '1' par l'ID retourné à l'étape précédente si besoin)
+GET http://localhost:3000/api/invoices/3
+
